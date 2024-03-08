@@ -1,18 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Photo from '../components/Photo.astro';
-import Footer from '../components/Footer.astro';
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import Intro from "../components/Intro.astro";
+import Footer from "../components/Footer.astro";
 ---
 
-<Layout title="Liga de Escritores 2024 - Las mejores voces de Canarias"
- description="Descubre a los mejores artistas de las Islas Canarias. ¡Descubre más sobre tus artistas favoritos">
+<Layout
+  title="Liga de Escritores 2024 - Las mejores voces de Canarias"
+  description="Descubre a los mejores artistas de las Islas Canarias. ¡Descubre más sobre tus artistas favoritos"
+>
+  <Photo /> 
 
-<Photo />	
- 
- <main>
-	
-	</main>
+  <main>
+	<Intro />
+  </main>
 
-	<Footer />
+  <Footer />
 </Layout>
-
